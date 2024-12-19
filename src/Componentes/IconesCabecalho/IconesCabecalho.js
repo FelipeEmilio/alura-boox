@@ -8,7 +8,7 @@ export const IconesCabecalhos = () => {
 
     return(
         <ul className='icones'>
-            {Icones.map(icone => (<li className='icone'><img src={icone} /></li>) )}
+            {Icones.map(icone => ( <li className='icone'> <img src={icone} alt='icone'/> </li> ) )}
         </ul>
     )
 
