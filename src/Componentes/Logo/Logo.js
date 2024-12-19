@@ -5,7 +5,10 @@ export const Logo = () => {
 
     return(
         <div className="logo">
-            <img src={logo} alt='logo'/>
+            <img 
+                src={logo} 
+                alt='logo'
+                className='logoImg'/>
             <p><strong>Alura</strong>Books</p>
         </div>
     )
