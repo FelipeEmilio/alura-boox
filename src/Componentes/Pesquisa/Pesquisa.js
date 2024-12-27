@@ -22,7 +22,7 @@ export const Pesquisa = () => {
             />
 
             { livrosPesquisados.map( livro => (
-                <div className='resultado'>  
+                <div className='resultado'>
                     <p>{livro.nome}</p>
                     <img src={livro.src}/>
                 </div>

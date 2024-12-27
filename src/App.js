@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Componentes/Header/index';
 import Pesquisa from './Componentes/Pesquisa/index';
+import UltimosLancamentos from './Componentes/UltimosLancamentos/index';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className='App'>
       <Header />
       <Pesquisa />
+      <UltimosLancamentos />
     </div>
   )
 
