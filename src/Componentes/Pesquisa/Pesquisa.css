@@ -19,3 +19,24 @@
     font-weight: 500;
     margin-bottom: 40px;
 }
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.resultado p {
+    width: 200px;
+}
+
+.resultado img {
+    width: 100px;
+}
+
+.resultado:hover {
+    border: 1px solid white;
+}

@@ -6,7 +6,6 @@ import { Livros } from './DadosPesquisa'
 export const Pesquisa = () => {
 
     const [livrosPesquisados, setLivrosPesquisados] = useState([])
-
     console.log(livrosPesquisados)
 
     return(
@@ -21,6 +20,14 @@ export const Pesquisa = () => {
                     setLivrosPesquisados(resultadoPesquisa)
                 }}
             />
+
+            { livrosPesquisados.map( livro => (
+                <div className='resultado'>  
+                    <p>{livro.nome}</p>
+                    <img src={livro.src}/>
+                </div>
+            ) ) }
+
         </section>
     )
 
