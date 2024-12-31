@@ -1,0 +1,52 @@
+.recomenda {
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 25px 20px;
+    justify-content: space-around;
+    width: 100%;  
+}
+
+.recomenda h3 {
+    width: 100%;
+    padding: 30px 0;
+    color: #EB9B00;
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+}
+
+.recomenda h4 {
+    color: #002F52;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.recomenda p {
+    max-width: 300px;
+}
+
+.recomenda img {
+    width: 150px;
+}
+
+.botao {
+    background-color: #EB9B00;
+    color: #FFF;
+    padding: 10px 0px;
+    font-size: 16px;
+    border: none;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    width: 150px;
+}
+
+.botao:hover {
+    background-color: #D78F00;
+}
